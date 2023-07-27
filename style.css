@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+  }
+
+  .hamburger p {
+    border: 2px solid black;
+    margin: 3px;
+    width: 20px;
+  }
+
+  .home {
+    background-image: url(./images/header-illsutration-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .intro {
+    padding: 0 55px 0 55px;
+  }
+
+  .intro h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .intro h1 span {
+    color: #36b37e;
+  }
+
+  .intro-para {
+    margin: 0 30px 0 30px;
+    font-size: 22px;
+  }
+
+  .intro-para p {
+    text-align: center;
+  }
+
+  .social-icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .social-icons ul li {
+    list-style: none;
+  }
+
+  .projects-title {
+    text-align: center;
+  }
+
+  .cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid red;
+    border: #36b37e;
+    border-radius: 50px;
+  }
+
+  .card-image {
+    padding: 100px 130px 100px 130px;
+    background-color: #ebf0ee;
+  }
+
+  .detail-title h3 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+  }
+
+  .languages ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 10px 50px 10px 50px;
+  }
+
+  .languages ul li {
+    list-style: none;
+    background-color: #ebf0ee;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button button {
+    background-color: #36b37e;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .card-details {
+    border-radius: 20px;
+  }
+
+  .card-image img {
+    height: auto;
+    width: 300px;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .about-para {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+  }
+
+  .about-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .about-button button {
+    background-color: #36b37e;
+    border: 1px solid #36b37e;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .technologies {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .tech-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebf0ee;
+    margin: 10px 60px;
+    padding: 30px 0;
+    border-radius: 5px;
+  }
+
+  .tech-list h3 {
+    size: 26px;
+  }
+
+  .tech-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding: 29px 20px 19px 20px;
+    flex-wrap: wrap;
+  }
+
+  .tech-list ul li {
+    background-color: #fff;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    color: #36b37e;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-para {
+    padding: 1px 40px;
+  }
+
+  .contact-para p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  input {
+    padding: 7px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: ipx solid grey;
+  }
+
+  textarea {
+    margin: 10px 30px;
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+
+  input::placeholder textarea::placeholder {
+    padding: auto 15px;
+    margin: 0 20px;
+  }
+
+  footer {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border-top: 1px solid grey;
+    width: 100%;
+    padding-top: 20px;
+  }
+}
